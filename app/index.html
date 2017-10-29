@@ -33,11 +33,11 @@
 				<span>Swedish airports</span>
 			</div>
 		</div>
-		<form action="">
-			<label>Username</label>
-			<input type="email" name="email" required>
-			<label>Password</label>
-			<input type="password" name="email" required>
+		<form action="" name="auth" autocomplete="on">
+			<label for="username">Username</label>
+			<input id="username" type="email" name="username" required>
+			<label for="password" >Password</label>
+			<input id="password" type="password" name="password" required>
 			<div>
 				<button type="submit">Отправить</button>
 				<a href="#">Forgot password?</a>

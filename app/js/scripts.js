@@ -10,8 +10,8 @@ $(document).ready(function(){
     function LogIn(el, event) {
         $(el).on(event, function (e) {
             e.preventDefault();
-            user.email = $('input[type="email"]').val();
-            user.password = $('input[type="password"]').val();
+            user.email = $('#username').val();
+            user.password = $('#password').val();
             ShowGreetings();
         });
     }
